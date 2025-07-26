@@ -1,0 +1,4 @@
+report.txt
+data.csv
+archive.zip
+image.jpg
