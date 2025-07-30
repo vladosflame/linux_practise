@@ -1,0 +1,4 @@
+INFO: User 'admin' logged in.
+WARN: Disk space is running low.
+INFO: Service nginx started.
+ERROR: Failed to connect to database.
