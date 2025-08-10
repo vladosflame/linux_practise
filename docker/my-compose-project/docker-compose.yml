@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  nginx-server:
+    image: nginx:latest
+    container_name: my-compose-nginx
+    ports:
+      - "8000:80"

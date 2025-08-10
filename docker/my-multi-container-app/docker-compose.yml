@@ -1,0 +1,17 @@
+services:
+  app:
+    image: prakhar1989/static-site
+    ports:
+      - "8080:80"
+    environment:
+      - REDIS_HOST=database
+    depends_on:
+      - database
+
+  database:
+    image: redis:alpine
+    volumes:
+      - redis-data:/data
+
+volumes:
+  redis-data:
